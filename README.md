@@ -1,4 +1,4 @@
-# ZSH && tmux Config
+# ZSH && tmux Config && .vimrc
 
 ## 1. dependencies:
 - zsh
@@ -22,7 +22,7 @@ after installed all the dependencies:
 - put nord-tmux in `~/.tmux`
 - run `source-file ~/.tmux.conf`
 - set tmux as your default shell
-
+- replace your local .vimrc with the provided one
 
 ## 4. some modifications:
 
