@@ -19,7 +19,7 @@ after installed all the dependencies:
 - set zsh as default shell
 - replace your `~/.zshrc` and `~/.tmux.conf`;
 - run `exec zsh`
-- put nord-tmux in `~/.tmux`
+- put nord-tmux (or any theme you like) in `~/.tmux`
 - run `source-file ~/.tmux.conf`
 - set tmux as your default shell
 - replace your local .vimrc with the provided one, remove instant markdown if not needed.
