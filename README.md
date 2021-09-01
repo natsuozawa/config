@@ -22,7 +22,7 @@ after installed all the dependencies:
 - put nord-tmux in `~/.tmux`
 - run `source-file ~/.tmux.conf`
 - set tmux as your default shell
-- replace your local .vimrc with the provided one
+- replace your local .vimrc with the provided one, remove instant markdown if not needed.
 
 ## 4. some modifications:
 
