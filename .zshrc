@@ -45,4 +45,6 @@ if ! zplug check --verbose; then
 	fi
 fi
 
-zplug load --verbose
+zplug load
+
+[[ $TERM != "screen" ]] && exec tmux
