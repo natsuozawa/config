@@ -1,0 +1,30 @@
+# Colors (idk)
+# a slightly modified version of tokyo night 
+colors:
+  # Default colors
+  primary:
+    background: "#3B3228"
+    foreground: "#d0c8c6"
+
+  # Normal colors
+  normal:
+    black:   '0x133550'
+    red:     '0xf7768e'
+    green:   '0x9ece6a'
+    yellow:  '0xe0af68'
+    blue:    '0x7aa2f7'
+    magenta: '0xad8ee6'
+    cyan:    '0x449dab'
+    white:   '0x787c99' 
+  # Bright colors
+  bright:
+    black:   '0x444b6a'
+    red:     '0xff7a93'
+    green:   '0xbeb55b'
+    yellow:  '0xff9e64'
+    blue:    '0x7da6ff'
+    magenta: '0xc89bb9'
+    cyan:    '0x0db9d7'
+    white:   '0xacb0d0'
+
+background_opacity: 0.6
