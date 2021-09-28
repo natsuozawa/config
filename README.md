@@ -10,8 +10,10 @@
 
 For zsh-local:
 - place it in `~/.zplug/repos/`.
+
 For vim color scheme:
 - place it in `~/.vim/colors/`
+
 For alacritty.yml:
 - place it in `~/.config/alacritty/`
 
