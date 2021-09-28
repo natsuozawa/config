@@ -4,14 +4,14 @@
 - zsh
 - tmux
 - zplug
-- fzf
 - nord-tmux (only source files are required)
 
 ## 2. locations:
 
 For zsh-local:
 - place it in `~/.zplug/repos/`.
-
+For vim color scheme:
+- place it in `~/.vim/colors/`
 
 ## 3. installation
 after installed all the dependencies:
