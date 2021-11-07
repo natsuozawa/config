@@ -1,24 +1,7 @@
 # zstyle - completion
 # vim-zsh-config
-source ~/.zplug/repos/zsh-local/zsh_local.zsh
-source ~/.zplug/repos/zsh-local/key-bindings.zsh
-
-
-#TODO
-# 1. a command to pipe fzf and 
-# 2. adjust the fzf shorcuts
-
-# zplug
-source ~/.zplug/init.zsh
-zplug "zsh-users/zsh-autosuggestions" 
-zplug "zsh-users/zsh-syntax-highlighting", defer:2
-zplug "b4b4r07/enhancd", use:init.sh
-zplug "qoomon/zsh-lazyload"
-zplug "laggardkernel/zsh-thefuck"
-zplug "agkozak/zsh-z"
-zplug "jreese/zsh-titles"
-
-
+source ~/.zsh-local/zsh-source.zsh 
+eval $(thefuck --alias)
 
 setopt AUTO_MENU           
 setopt AUTO_PARAM_SLASH   
@@ -38,13 +21,8 @@ export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || cat 
 
 # --------------------------
 
-if ! zplug check --verbose; then
-	printf "Install? [y/N]: "
-	if read -q; then
-		echo; zplug install
-	fi
-fi
-
-zplug load
+source /home/me/.zsh-local/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [[ $TERM != "screen" ]] && exec tmux
+
+if [ -e /home/me/.nix-profile/etc/profile.d/nix.sh ]; then . /home/me/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
