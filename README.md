@@ -10,7 +10,7 @@
 ## Set-up
 
 For zsh-local:
-- place it in `~/.zsh-local
+- place it in `~/.zsh-local`
 
 For vim color scheme:
 - place it in `~/.vim/colors/`
