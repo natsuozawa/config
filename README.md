@@ -3,7 +3,7 @@
 ## Config for:
 - zsh
 - tmux
-- ~~alacritty ~~
+- ~~alacritty~~
 (I'm currently using Kitty, but feel free to use the alacritty config file)
 
 
