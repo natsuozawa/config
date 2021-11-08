@@ -1,21 +1,23 @@
 # zsh, tmux, vim
 
-## 1. dependencies:
+## Config for:
 - zsh
 - tmux
-- zplug
-- alacritty
+~~- alacritty~~
+(I'm currently using Kitty, but feel free to use the alacritty config file)
 
-## 2. locations:
+
+## Set-up
 
 For zsh-local:
-- place it in `~/.zplug/repos/`.
+- place it in `~/.zsh-local
 
 For vim color scheme:
 - place it in `~/.vim/colors/`
 
-For alacritty.yml:
-- place it in `~/.config/alacritty/`
+~~For alacritty.yml:
+~- place it in `~/.config/alacritty/`~~
+Use your favorite package manager to install the files (or you can remove those plugin based on your need) into `~/.zsh-local` by using `git clone plugin_repo_link`
 
 ## 3. installation
 after installed all the dependencies:
