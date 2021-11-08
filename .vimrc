@@ -30,8 +30,6 @@ Plugin 'raimondi/delimitmate'
 " delimitmate
 Plugin 'itchyny/lightline.vim'
 " lightline theme
-Plugin 'JuliaEditorSupport/julia-vim'
-" Julia support
 
 call vundle#end()            " required
 filetype plugin indent on    " required
